@@ -1,0 +1,22 @@
+package project1;
+
+public class demo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	    teste_class eu = new teste_class("Guilherme",18);	
+	    eu.setAge(19);
+	    eu.speak();
+   	
+	    
+		
+		
+	    
+	    
+	    
+	    
+		
+
+	}
+
+}
