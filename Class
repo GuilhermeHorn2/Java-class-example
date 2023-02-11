@@ -1,0 +1,23 @@
+package project1;
+
+public class teste_class {
+	private String name;
+	private int age;
+	
+	public teste_class(String name,int age) {//method that build the object
+		this.name = name;
+		this.age = age;
+	}
+	
+	public void speak() {
+		System.out.println("I am " + this.name + " and I am " + this.age + " years old");
+				
+	}
+	public int getAge() {
+		return this.age;
+	}
+	public void setAge(int age) {//method that change the age
+		this.age = age;
+	}
+
+}
